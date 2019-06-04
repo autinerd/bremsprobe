@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Bremsprobeübung</title>
+        <script src="bremsprobe.js"></script>
+        <link rel="stylesheet" href="bremsprobe.css">
+    </head>
+    <body>
+        <header><h1>Willkommen zur Bremsprobeübung!</h1></header>
+        <main>
+            <h2>Aktuelle Aufgabe:</h2>
+            <ul>
+                <li>Länge des Zuges: <span id="length"></span> m</li>
+                <li>Masse des Tfz: <span id="massTfz"></span> t</li>
+                <li>Bremsgewicht P des Tfz: <span id="PTfz"></span> t</li>
+                <li>Bremsgewicht G des Tfz: <span id="GTfz"></span> t</li>
+                <li>Masse des Wagenzuges: <span id="massWagon"></span> t</li>
+                <li>Bremsgewicht P Wagenzuges: <span id="PWagon"></span> t</li>
+                <li>Bremsgewicht G Wagenzuges: <span id="GWagon"></span> t</li>
+                <div class="brh"><label for="brh">Bremshunderstel eingeben: </label><input type="number" id="brh"></div>
+                <button onclick="checkBrh()">Prüfen</button>
+                <span class="check" id="check"></span>
+                <button onclick="newValues()">Neue Aufgabe</button>
+                
+            </ul>
+        </main>
+    </body>
+</html>

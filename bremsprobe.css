@@ -1,0 +1,36 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    height: 65px;
+    background: coral;
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+}
+
+header h1 {
+    font-size: 18pt;
+}
+
+main {
+    padding-top: 65px;
+}
+
+.brh {
+    padding-top: 10px;
+}
+
+.check {
+    color: white;
+}
+.check.correct {
+    background: green;
+}
+
+.check.false {
+    background: red;
+}
